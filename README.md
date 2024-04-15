@@ -74,7 +74,7 @@ docker rmi helloworld:latest
 Remove dangling images.
 
 ```sh
-docker rmi $(docker images -f "dangling=true" -q)
+docker image prune
 ```
 
 ### Container
